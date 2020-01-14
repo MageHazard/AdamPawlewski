@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace InterfaceAdapters.Game.Actions.BuildAction
 {
-    public class BuildActionPresenter
+    public class BuildActionPresenter : BaseActionPresenter
     {
         public void ShowQuestionPopupWantToBuild()
         {
